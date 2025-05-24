@@ -3,7 +3,7 @@
 Гоце Жилески, бр. на индекс 41208
 
 # Control Flow Graph
-
+![checkCart_cfg](https://github.com/user-attachments/assets/1aa366d3-5936-4984-a171-cb6223ebc273)
 
 # Цикломатска комплексност
 
