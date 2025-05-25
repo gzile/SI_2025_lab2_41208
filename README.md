@@ -60,13 +60,6 @@ assertEquals(3920, SILab2.checkCart(itemList, "1298421398412398"));
 
 Табеала на сите тестови за овај израз:
 
-Test	Price > 300	Discount > 0	Quantity > 10	  Намалување(-30)	Единствен 
-TC1	      F	            F	          F	              No	           *
-TC2	      T	            F	          F	              Yes	           *
-TC3	      F	            T	          F	              Yes	           *
-TC4	      F	            F	          T	              Yes	           *
-TC5	      T	            T	          F	              Yes	   
-TC6     	T	            F	          T	              Yes	   
-TC7	      F	            T         	T	              Yes	  
-TC8	      T	            T	          T	              Yes	
+![Screenshot 2025-05-25 211620](https://github.com/user-attachments/assets/1ff7bb50-cc1f-4f82-9980-58b0a9d5869e)
+
 
