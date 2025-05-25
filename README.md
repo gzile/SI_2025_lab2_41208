@@ -59,6 +59,7 @@ assertEquals(3920, SILab2.checkCart(itemList, "1298421398412398"));
 Кога сите 3 изрази се невистинити.
 
 Табеала на сите тестови за овај израз:
+
 Test	Price > 300	Discount > 0	Quantity > 10	  Намалување(-30)	Единствен 
 TC1	      F	            F	          F	              No	           *
 TC2	      T	            F	          F	              Yes	           *
