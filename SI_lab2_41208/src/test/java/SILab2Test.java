@@ -49,12 +49,12 @@ public class SILab2Test {
                 items1.add(new Item("P1", 10, 300, 0.0));
                 assertEquals(3000.0, SILab2.checkCart(items1, validCard), 0.001); // 300*10 = 3000
 
-                // Тест случај 2: A=T, B=F, C=F (TFF) -> price>300, discount<=0, quantity<=10
+                // Тест случај 2: A=T, B=F, C=F (TXX) -> price>300, discount<=0, quantity<=10
                 List<Item> items5 = new ArrayList<>();
                 items5.add(new Item("P2", 10, 301, 0.0));
                 assertEquals((301 * 10) - 30, SILab2.checkCart(items5, validCard), 0.001); // (3010 - 30) = 2980
 
-                // Тест случај 3: A=F, B=T, C=F (FTF) -> price<=300, discount>0, quantity<=10
+                // Тест случај 3: A=F, B=T, C=F (FTX) -> price<=300, discount>0, quantity<=10
                 List<Item> items3 = new ArrayList<>();
                 items3.add(new Item("P3", 10, 300, 0.1));
                 assertEquals((300 * (1 - 0.1) * 10) - 30, SILab2.checkCart(items3, validCard), 0.001); // (2700 - 30) =  2670
